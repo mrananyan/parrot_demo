@@ -15,8 +15,7 @@ function initLongPolling() {
 }
 
 function sendMessage() {
-    $.ajax(
-        {
+    $.ajax({
             type: 'POST',
             url: '/send.php',
             data: {
@@ -26,8 +25,8 @@ function sendMessage() {
             success: function(data){
                 console.log(data)
             }
-        }
-    );
+        });
+    $('#message').val('')
 }
 
 $(function() {
