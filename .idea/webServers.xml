@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3bd758eb-b113-4cdd-aa1f-cb19c9cf1883" name="server" url="http://lp.hotdot.me">
+        <fileTransfer host="192.168.0.8" port="22" rootFolder="/var/www/hotdot.me/lp" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

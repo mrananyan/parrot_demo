@@ -8,6 +8,9 @@ function initLongPolling() {
                 } else if (data.type === 'message'){
                     let event = JSON.parse(data.data.message);
                     $('#chatHistory').append('<p><b>'+event.name+'</b>: '+event.message+'</p>');
+                    $('#introBox').hide();
+                    document.getElementById('parrot').play()
+                    $('#chatHistory').show();
                     initLongPolling();
                 }
             }

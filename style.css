@@ -1,26 +1,23 @@
-html, body {
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: 'booq-brand-bold';
+    src: url('/booq.ttf') format('truetype');
 }
-
-#chatHistory {
-    height: 300px;
-    width: 500px;
-    padding: 20px;
-    margin: 20px;
-    border: 2px solid black;
-    overflow: auto;
-}
-
-.input{
-    width: 500px;
-    margin: 10px;
-    border: 2px solid black;
-}
-
-button{
-    border: 0;
-    background: #000000;
+.logo{
+    font-size: 100px;
     color: #ffffff;
-    padding: 10px;
+    font-family: booq-brand-bold;
+    outline: none;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+    background-size: auto;
+    background-clip: border-box;
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate {
+    to {
+        background-position: 400%;
+    }
 }

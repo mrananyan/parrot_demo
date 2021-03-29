@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea16c747-208f-439c-8503-383ab7772608" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booq.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -43,6 +50,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,11 +67,30 @@
       <option name="presentableId" value="Default" />
       <updated>1616955529916</updated>
       <workItem from="1616955531209" duration="4304000" />
-      <workItem from="1616961694298" duration="61000" />
+      <workItem from="1616961694298" duration="358000" />
+      <workItem from="1617042131809" duration="4049000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="80" key="#Deployment" timestamp="1617042312570">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="320" y="80" key="#Deployment/0.25.1440.786@0.25.1440.786" timestamp="1617042312570" />
+    <state x="444" y="225" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617043637067">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="444" y="225" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.786@0.25.1440.786" timestamp="1617043637067" />
+    <state x="627" y="152" key="ftp.server.browser" timestamp="1617042287997">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="627" y="152" key="ftp.server.browser/0.25.1440.786@0.25.1440.786" timestamp="1617042287997" />
+    <state x="592" y="315" key="publish.login" timestamp="1617042234008">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="592" y="315" key="publish.login/0.25.1440.786@0.25.1440.786" timestamp="1617042234008" />
   </component>
 </project>
