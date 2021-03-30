@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea16c747-208f-439c-8503-383ab7772608" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booq.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/send.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,8 @@
       <updated>1616955529916</updated>
       <workItem from="1616955531209" duration="4304000" />
       <workItem from="1616961694298" duration="358000" />
-      <workItem from="1617042131809" duration="4049000" />
+      <workItem from="1617042131809" duration="4175000" />
+      <workItem from="1617092194893" duration="1090000" />
     </task>
     <servers />
   </component>
@@ -88,9 +86,9 @@
       <screen x="0" y="25" width="1440" height="786" />
     </state>
     <state x="627" y="152" key="ftp.server.browser/0.25.1440.786@0.25.1440.786" timestamp="1617042287997" />
-    <state x="592" y="315" key="publish.login" timestamp="1617042234008">
+    <state x="592" y="315" key="publish.login" timestamp="1617092234872">
       <screen x="0" y="25" width="1440" height="786" />
     </state>
-    <state x="592" y="315" key="publish.login/0.25.1440.786@0.25.1440.786" timestamp="1617042234008" />
+    <state x="592" y="315" key="publish.login/0.25.1440.786@0.25.1440.786" timestamp="1617092234872" />
   </component>
 </project>

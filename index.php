@@ -35,7 +35,7 @@
                 <div class="col-md-4">
                     <img style="width: 100%" src="/logo.png" alt="Parrot" class="responsive-image">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 center">
                     <span class="logo">Parrot</span>
                     <p>
                         Open this page in another browser or device and try to send a message from first device to the second device and back. Worker have no connections limit and can be tested with unlimited devices. Besides you at this demo app can be other people and we kindly ask you to be adequate. Here also can be people under 16y.

@@ -3,11 +3,11 @@
     src: url('/booq.ttf') format('truetype');
 }
 .logo{
-    font-size: 100px;
+    font-size: 250%;
     color: #ffffff;
     font-family: booq-brand-bold;
     outline: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
     background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
     background-size: auto;
     background-clip: border-box;
@@ -15,6 +15,17 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate 10s linear infinite;
+}
+.center{
+    text-align: center;
+}
+#chatHistory {
+    height: 70vh;
+    border: 3px dashed gray;
+    margin-bottom: 50px;
+    padding: 20px;
+    overflow: auto;
+    display: none;
 }
 @keyframes animate {
     to {

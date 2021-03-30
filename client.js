@@ -6,12 +6,12 @@ function initLongPolling() {
                 if (data.type === 'reconnect'){
                     initLongPolling();
                 } else if (data.type === 'message'){
+                    initLongPolling();
                     let event = JSON.parse(data.data.message);
-                    $('#chatHistory').append('<p><b>'+event.name+'</b>: '+event.message+'</p>');
+                    $('#chatHistory').prepend('<p><b>'+event.name+'</b>: '+event.message+'</p>');
                     $('#introBox').hide();
                     document.getElementById('parrot').play()
                     $('#chatHistory').show();
-                    initLongPolling();
                 }
             }
         });
@@ -23,13 +23,13 @@ function sendMessage() {
             url: '/send.php',
             data: {
                 "name": $('#name').val(),
-                "message": $('#message').val()
+                "message": $('#Message').val()
             },
             success: function(data){
-                console.log(data)
+                console.log(data);
+                $('#Message').val('')
             }
         });
-    $('#message').val('')
 }
 
 $(function() {
